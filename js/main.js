@@ -17,7 +17,7 @@ buttons.on("click", function () {
 });
 
 const sliderProduct = $(".ba-section__slider");
-// sliderProduct.slick({
+sliderProduct.slick({
 //   fade: true,
 //   slide: ".ba-slider",
 //   autoplay: 2000,
@@ -47,7 +47,7 @@ const sliderProduct = $(".ba-section__slider");
 //       },
 //     },
 //   ],
-// });
+});
 
 const accordions = $(".ba-accordion");
 accordions.find("dt").on("click", function () {
